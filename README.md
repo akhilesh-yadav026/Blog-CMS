@@ -119,12 +119,7 @@ All endpoints are prefixed with `/api`. Blog descriptions are stored as Tiptap J
 | `GET` | `/blogs/admin/all` | List all blogs, including drafts, for the admin dashboard. |
 | `GET` | `/blogs/admin/:id` | Get one blog by MongoDB ID for editing. |
 
-## Deployment
 
-The repository does not include live deployment URLs. You can deploy the Next.js frontend to Vercel and the Express API to a Node.js host such as Render. Set the environment variables above in each hosting service, using the deployed frontend origin for backend `FRONTEND_URL` and the deployed API base URL for frontend `NEXT_PUBLIC_API_URL`.
-
-- Frontend: `<your-frontend-url>`
-- Backend: `<your-backend-url>`
 
 ## Author
 
